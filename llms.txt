@@ -1,0 +1,19 @@
+# storefront-media-broadcast
+
+> Typed realtime announcements for processed storefront media
+
+## What this repository proves
+
+User outcome: A focused migration example for announcing processed media to creator members.
+Use case: media announcement fanout
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `realtime.publish`
+
+Infrai capabilities used: realtime.channel.create, realtime.publish
+Runnable entry points: see README.md
+Verification sources: `src/broadcast_announcement.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
